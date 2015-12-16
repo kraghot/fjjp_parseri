@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import requests, re
 import simplejson as json
 import time
+import codecs
 
 
 def parseRad(clanci):
@@ -19,26 +20,28 @@ def parseRad(clanci):
 
     data = r.text
     soup = BeautifulSoup(data, "html.parser")
-    sadrzaj = []
-    autor= []
-    datum = []
+    sadrzaj = ""
+    autor= ""
+    datum = ""
 
     for p in soup.find_all('div', class_='dr_article'):
-        sadrzaj.append(p.text)
+        sadrzaj=p.text
 
     for a in soup.find_all('div', class_='author'):
-        autor.append(a.text)
+        autor=a.text
 
     for div in soup.find_all('div', class_='published'):
-        datum.append(div.text)
+        datum=div.text
 
     endValues = dict()
-    endValues['Sadrzaj'] = sadrzaj[0]
-    endValues['Autor'] = autor[0].replace("Autor:\n", " ")
-    endValues['Datum'] = datum[0].replace("Objavljeno:","")
+    endValues['Sadrzaj'] = sadrzaj
+    endValues['Autor'] = autor.replace("Autor:\n", " ")
+    endValues['Datum'] = datum.replace("Objavljeno:","")
 
     print(json.dumps(endValues,  ensure_ascii=False))
-
+    text_file.write("%s\n" % datum)
+    text_file.write("%s\n" % autor.encode('utf8'))
+    text_file.write("%s\n\n" % sadrzaj.encode('utf8'))
 
 def parseSearch(tag):
 
@@ -68,6 +71,9 @@ def parseSearch(tag):
     #     print re.search("rad=(.+?)\"", link)
 
 idevi = parseSearch('izbjeglice')
+text_file = open("Output.txt", "w")
+
 for rad in idevi:
     parseRad(rad)
     time.sleep(2)
+text_file.close()
