@@ -12,13 +12,16 @@ import requests, re
 import simplejson as json
 import time
 import codecs
+from pprint import pprint
+import urllib, json
 
 
 def parseRad(clanci):
     url = clanci
     r = requests.get(url)
-
     data = r.text
+
+
     soup = BeautifulSoup(data, "html.parser")
     sadrzaj = ""
     autor= ""
@@ -35,15 +38,36 @@ def parseRad(clanci):
     for div in soup.find_all('div', class_='published'):
         datum=div.text
 
+    comment_url="https://graph.facebook.com/comments/?id=" + url
+    comment_r=requests.get(comment_url)
+    comment_data=urllib.urlopen(comment_url)
+
+    comment=json.loads(comment_data.read())
+
+    num_com = len(comment['data'])
+
     endValues = dict()
     endValues['Sadrzaj'] = sadrzaj
     endValues['Autor'] = autor.replace("Autor:\n", " ")
     endValues['Datum'] = datum.replace("Objavljeno:","")
+    for i in range(0,num_com):
+        if num_com == 0:
+            break
+        endValues['Autor komentara'] = comment["data"][i]["from"]["name"]
+        endValues['Komentar'] = comment["data"][i]["message"]
+
+
 
     print(json.dumps(endValues,  ensure_ascii=False))
     text_file.write("%s\n" % datum)
     text_file.write("%s\n" % autor.encode('utf8'))
-    text_file.write("%s\n\n" % sadrzaj.encode('utf8'))
+    text_file.write("Sadrzaj:\n%s\n\n" % sadrzaj.encode('utf8'))
+    for i in range(0,num_com):
+        if num_com == 0:
+            break
+        text_file.write("Autor komentara:\n%s\n\n" % comment["data"][i]["from"]["name"].encode('utf8'))
+        text_file.write("Komentar:\n%s\n\n" % comment["data"][i]["message"].encode('utf8'))
+
 
 def parseSearch(tag, page):
 
