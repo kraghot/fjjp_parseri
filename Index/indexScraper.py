@@ -6,10 +6,12 @@ from bs4 import BeautifulSoup
 import requests
 import simplejson as json
 from datetime import datetime
+import os
 
-def parseRad(clanakURL):
+def parseClanak(clanakURL):
+    fullUrl = 'http://www.index.hr' + clanakURL
+    r = requests.get(fullUrl)
 
-    r = requests.get('http://www.index.hr' + clanakURL)
     data = r.text
 
     soup = BeautifulSoup(data, "html.parser")
@@ -26,7 +28,8 @@ def parseRad(clanakURL):
     endValues['Autor'] = autor
     endValues['Datum'] = datum.isoformat(' ')
 
-    print(json.dumps(endValues,  ensure_ascii=False))
+    #print(json.dumps(endValues,  ensure_ascii=False)) DEBUG PRINT
+
 
     text_file = open('fjjp_index_' + clanakURL[1:] + '.txt', 'w')
     text_file.write(json.dumps(endValues, ensure_ascii=False, indent=4*' ').encode("UTF_8"))
@@ -53,7 +56,28 @@ def parseSearch(tag, pageNumber):
     print(clanci)
     return clanci
 
+def fbComment():
+       ###START FB PARSE###
+    fullUrl = 'http://www.index.hr/clanak.aspx?id=851559'
+    output = os.popen('curl -i -X GET "https://graph.facebook.com/v2.0/comments/?id=http%3A%2F%2Fwww.index.hr%2Fvijesti%2Fclanak%2Fjansa-kritizirao-zilet-zicu-na-granici-to-nema-nikakve-svrhe-sada-stavljena-je-prekasno%2F863757.aspx&access_token=CAACEdEose0cBAC9rtTivWgUi438rZB3kkIwS5k1i160ykbzKu8njOKhQiiZBJHhlvrEr3DGD1UmBh3gGq4RDWr9ZCTETbAgxtCPiDY2tEjTmqWleZCO2yp1UMZArlHuu7yGoGIBFBcr3wD03dMHZAgBRVsg0b7ln1sdunR8ZAEXBzqd4Nvmv0AA4dlD5o98eoLK7X2IWZAqIfiusNLx0W9p6"').read()
+    print output
+    print graph.get_object(fullUrl)
 
+
+
+    commentsJsonObject = json.dumps(data, ensure_ascii=False)
+    commentDictList = []
+
+    for i in commentsJsonObject['data']:
+        commentDict = dict()
+        commentDict['Author Name'] = i['from']['name']
+        commentDict['Message'] = i['message']
+        commentDictList.append(commentDict)
+    print commentDictList
+
+
+    ###END FB PARSE###
 tag = "1556/imigranti/"
 #parseSearch(tag, 1)
-parseRad('/clanak.aspx?id=851559')
+#parseClanak('/clanak.aspx?id=851559')
+fbComment()
