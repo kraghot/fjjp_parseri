@@ -39,8 +39,10 @@ def parseRad(clanci):
     soup= BeautifulSoup(str(soup).replace("</ul>", replaceString))
 
 
+
     for p in soup.find_all('div', class_='dr_article'):
         sadrzaj=p.text
+        sadrzaj=sadrzaj.replace("\n\n\n", "")
     if sadrzaj == "":
         return
 
@@ -54,7 +56,6 @@ def parseRad(clanci):
         title=t.text
 
     comment_url="https://graph.facebook.com/comments/?id=" + url
-    comment_r=requests.get(comment_url)
     comment_data=urllib.urlopen(comment_url)
 
     comment=json.loads(comment_data.read())
