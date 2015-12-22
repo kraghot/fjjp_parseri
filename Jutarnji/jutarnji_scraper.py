@@ -14,9 +14,10 @@ import time
 import codecs
 from pprint import pprint
 import urllib, json
-
+rbr=0
 
 def parseRad(clanci):
+    global rbr
     url = clanci
     r = requests.get(url)
     data = r.text
@@ -51,6 +52,7 @@ def parseRad(clanci):
 
     for div in soup.find_all('div', class_='published'):
         datum=div.text
+        datum=datum.replace("Objavljeno: ", "")
 
     for t in soup.find_all('title'):
         title=t.text
@@ -66,7 +68,7 @@ def parseRad(clanci):
     endValues['Sadrzaj'] = sadrzaj
     endValues['Naslov'] = title
     endValues['Autor'] = autor.replace("Autor:\n", " ")
-    endValues['Datum'] = datum.replace("Objavljeno:","")
+    endValues['Datum'] = datum
     for i in range(0,num_com):
         if num_com == 0:
             break
@@ -75,17 +77,24 @@ def parseRad(clanci):
 
     title=title.replace("- Jutarnji.hr", "")
 
+    rbr+=1
+
+    article = open("jutarnji-" + datum + "-" + `rbr` +".txt", "w")
+
     print(json.dumps(endValues,  ensure_ascii=False))
-    text_file.write("Naslov:\n%s\n" % title.encode('utf8'))
-    text_file.write("%s\n" % datum)
-    text_file.write("%s" % autor.encode('utf8'))
-    text_file.write("Sadrzaj:\n%s\n\n" % sadrzaj.encode('utf8'))
+    article.write("Naslov:\n%s\n" % title.encode('utf8'))
+    article.write("Objavljeno: %s\n" % datum)
+    article.write("%s" % autor.encode('utf8'))
+    article.write("Sadrzaj:\n%s\n\n" % sadrzaj.encode('utf8'))
+    article.close()
+
+    comment_file = open("jutarnji-" + datum + "-" + `rbr` +"-komentari.txt", "w")
     for i in range(0,num_com):
         if num_com == 0:
             break
-        text_file.write("Autor komentara:\n%s\n\n" % comment["data"][i]["from"]["name"].encode('utf8'))
-        text_file.write("Komentar:\n%s\n\n" % comment["data"][i]["message"].encode('utf8'))
-
+        comment_file.write("Autor komentara:\n%s\n\n" % comment["data"][i]["from"]["name"].encode('utf8'))
+        comment_file.write("Komentar:\n%s\n\n" % comment["data"][i]["message"].encode('utf8'))
+    comment_file.close()
 
 def parseSearch(tag, page):
 
@@ -126,11 +135,11 @@ for tag in tags:
     while(flag):
         page+=1
         idevi+=parseSearch(tag, page)
-        text_file = open("Output.txt", "w")
+        #text_file = open("Output.txt", "w")
         if page == 3:
             break
 
 for rad in idevi:
     parseRad(rad)
     time.sleep(2)
-text_file.close()
+#text_file.close()
