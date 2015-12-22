@@ -1,18 +1,16 @@
+Naslov:
+Prvi izbjeglice iz Hrvatske stigli u Austriju 
 Objavljeno: 19.09.2015
 Autor:
  Hina
 
-
 Sadrzaj:
 
-Na austrijski granični prelaz Heiligenkreuz u Gradišću tijekom noći stigli su prvi izbjeglice koje su hrvatske vlasti prebacile u Mađarsku.VEZANE VIJESTIVijestiVELIKI ZAOKRET Izbjeglice problijedile kada su vidjele mađarsku policiju, ali nekoliko minuta poslije plakali su od sreće: 'Ništa nam nije jasno'MAĐARI OTVORILI HUMANITARNI KORIDOR, SLOVENCI ODBIJAJU! Optužuju Hrvatsku zbog dolaska migranata na graniceSVJETSKI MEDIJI PRENOSE PORUKU MILANOVIĆA: 'Hrvatska neće postati sabirni centar migranata i izbjeglica u Europi'
+Na austrijski granični prelaz Heiligenkreuz u Gradišću tijekom noći stigli su prvi izbjeglice koje su hrvatske vlasti prebacile u Mađarsku.
 U noći s petka na subotu, prema policiji, pristiglo je oko 1000 izbjeglica, koji se dalje prevoze autobusima do Beča i Graza.
 Tijekom dana vlasti očekuju tisuće izbjeglica kao i na prelazu Nickelsdorf, gdje se u idućim satima očekuje dolazak njih oko 1000.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 
@@ -23,23 +21,21 @@ Ivan Blazevic
 Komentar:
 slažem se sa tobom i sada su nama natovarili na leđa sav nered
 
+Naslov:
+'OTIMAJU NAM RADNA MJESTA, PRIJETNJA SU NACIONALNOJ SIGURNOSTI...' Ovo je sedam najčešćih zabluda o izbjeglicama 
 Objavljeno: 24.09.2015
 Autor:
 Jutarnji list
 
-
 Sadrzaj:
 
-Svjetska istraživanja, kao i hrvatska, svjedoče o predrasudama prema izbjeglicama koja nemaju podlogu u stvarnosti, tvrdi dr. Drago Župarić Iljić iz Instituta za migracije i narodnosti. Ovo su najčešći stavovi s kojima se izbjeglice susreću:VEZANE VIJESTIVijestiNOVI OŠTAR NAPAD MILANOVIĆA 'Budimpešta, Beograd i HDZ su sveto trojstvo, uvjeren sam da nam Srbi i Mađari muljaju te da nam rade iza leđa'SVE SPREMNO ZA PLAN C? Srpski mediji tvrde da je operacija već počela, Hrvatska demantira: 'Neka donesu snimku, takav plan ne postoji'MAĐARSKA PROTIV NJEMAČKE Orban protiv 'moralnog imperijalizma' Merkel
+Svjetska istraživanja, kao i hrvatska, svjedoče o predrasudama prema izbjeglicama koja nemaju podlogu u stvarnosti, tvrdi dr. Drago Župarić Iljić iz Instituta za migracije i narodnosti. Ovo su najčešći stavovi s kojima se izbjeglice susreću:
 
 1. Izbjeglice uzimaju poslove domaćim radnicima
 
 Tražitelji zaštite imaju zakonsko pravo na rad tek nakon devet mjeseci od dana podnošenja zahtjeva za zaštitom. Priznate izbjeglice imaju pravo na rad odmah po odobrenju statusa, no u praksi vrlo mali dio njih radi u Hrvatskoj; tek desetak od 165 priznatih izbjeglica.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 
@@ -178,21 +174,19 @@ Hrvoje Bosancic
 Komentar:
 IZBJEGLICE SU TRAGEDIJA I PATNJA. IZBJEGLICE SU NESREĆA I SRAMOOTA ČOVJEČANSTVA I TKO GOD POMOGNE NESRETNICIMA DOBIT ĆE PLAĆU OD OCA NEBESKOG KOJI SVE VIDI.Tko diže ograde i veliča mržnju i zazor i strah od drugih gorjeti će u ognju paklenom.
 
+Naslov:
+NAČELNIK MALE SLOVENSKE OPĆINE POLUDIO 'To nisu izbjeglice, nego horda koja djecu i žene guraju prema naprijed. Sve su uništili, zapišali...' 
 Objavljeno: 21.10.2015
 Autor:
 Portal Jutarnji.hr
 
-
 Sadrzaj:
 
-Načelnik slovenske općine Zavrč potpuno je izgubio živce kada je vidio na što izgleda njegovo mjesto nakon što je tamo prošlo nekliko tisuća izbjeglice prošlo. Zavrč je na samoj granici s Hrvatskom, a sloveske vlasti ljude su smjestili na stadion tamošnjeg ambicioznog prvoligaša, gdje između ostalih, igra bivši prvotimac Liverpoola Albert Riera. Ono što boli načelnika Mirana Vuka je upravo smeće koje su izbjeglice ostavile na uređenom stadionu...VEZANE VIJESTIVijestiMILANOVIĆ 'Iskreno, ne vidim uopće smisao funkcije predsjednika Republike. Trebalo bi ga birati u Saboru'POČETAK KRAJA KAOSA U SLOVENIJI? Berlin i Beč obećavaju da neće zatvoriti granice, Ostojić: 'Dogovorili smo se i uspostavili koridor'IZBJEGLIČKI KAOS U REGIJI U Opatovac pješače tisuće novih izbjeglica, Slovenci blizu granice već rasporedili vojna oklopna vozila
+Načelnik slovenske općine Zavrč potpuno je izgubio živce kada je vidio na što izgleda njegovo mjesto nakon što je tamo prošlo nekliko tisuća izbjeglice prošlo. Zavrč je na samoj granici s Hrvatskom, a sloveske vlasti ljude su smjestili na stadion tamošnjeg ambicioznog prvoligaša, gdje između ostalih, igra bivši prvotimac Liverpoola Albert Riera. Ono što boli načelnika Mirana Vuka je upravo smeće koje su izbjeglice ostavile na uređenom stadionu...
 - Ma kakve izbjeglice!? Pa to su nekontrolirane divlje horde koje djecu i žene guraju prema naprijed. Izbjeglice su bili oni koji su došli iz Bosne, koji su bili zahvalni za svaku stvar. To su divlje horde koji uzimaju pravo uništiti, zaprljati, rekao je za Štajerski tednik Miran Vuk.
 - Sve je uništeno. Gdje su stajali, tu su pišali. Gdje su ležali, tu su obavljali nuždu, rekao je načelnik bijesan zbog uništenog stadiona.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 - Nitko ne želi dotaknuti ovo smeće. Deke, obuću, hranu. Sve su pobacali. Skuhali smo 1200 obroka. Hrana su dobili, ali su je bacali. Ne znam što jedu.
@@ -241,21 +235,19 @@ Salko Čajić
 Komentar:
 Spašavaju živu glavu,boli ih kujac za sve!!
 
+Naslov:
+PLAN B Organiziranim autobusima izbjeglice iz Tovarnika i Belog Manastira voze na granicu s Mađarskom 
 Objavljeno: 18.09.2015
 Autor:
 Portal Jutarnji.hr, Nikola Patković
 
-
 Sadrzaj:
 
-Nakon što je premijer Zoran Milanović kazao kako Hrvatska prelazi na plan B, te kako više neće popisivati, a niti zadržavati izbjeglice, u Tovarniku i Belom Manastiru organizirani su besplatni autobusi koji prevoze izbjeglice do mađarskog graničnog prijelaza Beremend.VEZANE VIJESTIVijestiMILANOVIĆ 'Od danas krećemo s drugačijom politikom. Ne možemo popisivati sve izbjeglice. Nahranit ćemo ih i poslati dalje'UŽIVO: INCIDENTI NA GRANICI Slovenci bacili suzavac, Mađari zaustavili vlak, zapisali hrvatske policajce i zadržali strojovođe KITAROVIĆ 'Gore je nego se mislilo, migranti bez kontrole idu iz naselja u naselje, angažman HV-a neizbježan'U OSIJEKU BEZ KONTROLE, BARANJA I BELI MANASTIR KAOTIČNO Zbog opreza neke škole danas zatvorenePRVI ZAHTJEV ZA AZILOM Od 13.500 tisuća izbjeglica dosad je samo jedna žena s djecom zatražila azil
+Nakon što je premijer Zoran Milanović kazao kako Hrvatska prelazi na plan B, te kako više neće popisivati, a niti zadržavati izbjeglice, u Tovarniku i Belom Manastiru organizirani su besplatni autobusi koji prevoze izbjeglice do mađarskog graničnog prijelaza Beremend.
 Prije nego što su autobusi organizirano krenuli prema mađarskoj granici na kolodvoru u Belom Manastiru izbila je tučnjava u kojoj su dvije poveće skupine, s jedne strane Sirijci a s druge Afganistanci. Gađali su se kamenjem i fizički sukobili, to je trajalo sat vremena u sporadičnim intervalima.
 Policija je na jedvite jade smirila situaciju.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 Iz Belog manastira prema Osijeku krenuo je i redovni putnički vlak u kojeg se ukrcalo nekoliko stotina imigranata i izbjeglica.
@@ -342,14 +334,15 @@ Herceg Stjepan Kosača
 Komentar:
 Kakav si Zoki za plan C: ostavka i politička mirovina?
 
+Naslov:
+IZBJEGLICE KRENULE PREMA HRVATSKOJ Dvadesetak punih autobusa vozi se sa stanice u Preševu prema granici u Šidu 
 Objavljeno: 15.09.2015
 Autor:
 Portal Jutarnji.hr
 
-
 Sadrzaj:
 
-Autobusi koji su prethodnih dana prevozili izbjeglice iz Preševa prema granici Mađarske i Srbije od prije nekoliko sati preusmeravaju se na Šid i granicu s Hrvatskom.VEZANE VIJESTIVijestiFOTO: POTPUNI KAOS NA MAĐARSKOJ GRANICI Novi proboj ograde, policija baca suzavac, čuje se pucnjava, nastala je panika, 300 ozlijeđenih, stiže vojska!IZBJEGLICE BI USKORO MOGLE PREPLAVITI HRVATSKU 'Pripremili smo izvanredni plan, ali ne treba nikoga opterećivati detaljima'UNHCR PREDLAŽE RUTU PREKO HRVATSKE? 'Spremni smo pomoći, ali bit će teško, kao u Makedoniji i Grčkoj'IZBJEGLICAMA ŠALJU KARTE S RUTAMA KROZ HRVATSKU 'Nemojte ići na Mađarsku, zatvorena je granica! Ali zato možete ovim putem...'
+Autobusi koji su prethodnih dana prevozili izbjeglice iz Preševa prema granici Mađarske i Srbije od prije nekoliko sati preusmeravaju se na Šid i granicu s Hrvatskom.
 Kako javlja 
 N1
  s lica mjesta, na autobusima koji su krenuli sa stanice u Preševu piše nova destinacija - Šid i Hrvatska.
@@ -359,9 +352,6 @@ Blic
 
 
 
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
-
 
 Do ove dramatične promjene u ruti došlo je nakon današnjeg zatvaranja graničnih prijelaza između Srbije i Mađarske zbog čega su stotine izbjeglica ostale u pograničnom području.
 Reporteri koji su ušli u jedan od autobusa izjavili su da vozači govore da se neće zaustavljati dok migrante ne prevezu do granice s Hrvatskom.
@@ -369,21 +359,19 @@ Mađarska od ponoći primjenjuje izmijenjeni Zakon o granici prema kome je za il
 Zatvoren je i posljednji prolaz koji su izbjeglice koristile, a to je pruga Subotica - Segedin, na koju je u ponedjeljak popodne postavljen vagon s bodljikavom žicom.
 
 
+Naslov:
+OSTOJIĆ ODGOVORIO NJEMAČKOM MINISTRU 'Tehnički je nemoguće vratiti izbjeglice iz Njemačke u Hrvatsku i Sloveniju' 
 Objavljeno: 06.10.2015
 Autor:
  Hina
 
-
 Sadrzaj:
 
-Potpredsjednik Vlade i ministar unutarnjih poslova Ranko Ostojić izjavio je u utorak, komentirajući izjavu njemačkog ministra unutarnjih poslova o mogućem vraćanju izbjeglica u Sloveniju i Hrvatsku, da je Hrvatska pristupom prema izbjeglicama dokazala da je humana i civilizirana država za razliku od država iz kojih izbjeglice dolaze.VEZANE VIJESTIVijestiMAĐARSKU ŽICU NA HRVATSKOJ GRANICI ČUVAT ĆE I ČEŠKA VOJSKA Prag Budimpešti šalje pomoć u nadzoru granice zbog izbjeglicaERDOGAN IMA UVJET ZA ZAUSTAVLJANJE IZBJEGLICA 'Neka prvo Europska unija ukine umjetne barijere zbog kojih Turska još nije članica'DRAMATIČNA PORUKA IZ NJEMAČKE 'U zemlju bi nam moglo ući 1,5 milijuna migranata, postoji mogućnost da ih masovno vratimo u Hrvatsku!'
+Potpredsjednik Vlade i ministar unutarnjih poslova Ranko Ostojić izjavio je u utorak, komentirajući izjavu njemačkog ministra unutarnjih poslova o mogućem vraćanju izbjeglica u Sloveniju i Hrvatsku, da je Hrvatska pristupom prema izbjeglicama dokazala da je humana i civilizirana država za razliku od država iz kojih izbjeglice dolaze.
 "Tehnički je to nemoguće izvesti jer prije toga morate otići u neke druge europske zemlje, koje još uvijek nisu Grčka. Prvo trebate u Austriju i Mađarsku, pa tek onda možete doći do Hrvatske, ali dogovor već postoji", rekao je Ostojić dodajući kako je Hrvatska i dalje spremna prihvatiti 1650 ljudi, prema planu koji je EU dogovorio oko relokacije izbjeglica iz Sirije.
 Prihvatni centar u Opatovcu, u koji već više od dvadeset dana neprestano pristižu izbjeglice na putu do zapadnoeuropskih zemalja, posjetili su veleposlanici Kanade, Japana, Irske, Švedske i Slovenije koji su se upoznali s funkcioniranjem centra i tamošnjih službi, kao i uvjetima u kojima u šatorskom naselju borave izbjeglice.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 Djecu u prihvatnom centru posjetom su razveselili klaunovi doktori, članovi udruge "Crveni nosevi", koja humorom pruža psihosocijalnu podršku ljudima koji su bolesni i pate.
@@ -408,22 +396,20 @@ Zvonimir Matić
 Komentar:
 a 21 na 7... 7>5... nepoznato koliko je 5+... i je li veće od 5+...
 
+Naslov:
+'MOJE IME JE RANKO I JA SAM MINISTAR. BIT ĆETE OVDJE SAMO KRATKO, DA SE OSVJEŽITE' Ostojić osobno dočekivao izbjeglice kod Opatovca 
 Objavljeno: 21.09.2015
 Autor:
 Portal Jutarnji.hr
 
-
 Sadrzaj:
 
 
-OPATOVAC - Ministar unutarnjih poslova Ranko Ostojić dočekao je izbjeglice koje su stizale u Opatovac. Na snimci koju je danas objavila Vlada RH možemo vidjeti kako je protekao ministrov ‘brifing’ izbjeglicama.VEZANE VIJESTIVijestiSVE MIGRANTE IZ TOVARNIKA PREBACILI U ŠATORSKI KAMP Ostojić: 'Čujem da HDZ organizira zabavu, mogli su poslati dva busa i pomoći'SRPSKI MINISTAR POLICIJE 'Hrvatska se očito ne snalazi u izbjegličkoj krizi, blokada Bajakova za kamione nije dobrosusjedski potez'HRVATSKI PLAN B Još jedan vlak pun migranata krenuo iz Tovarnika za Botovo
+OPATOVAC - Ministar unutarnjih poslova Ranko Ostojić dočekao je izbjeglice koje su stizale u Opatovac. Na snimci koju je danas objavila Vlada RH možemo vidjeti kako je protekao ministrov ‘brifing’ izbjeglicama.
 Iako je imao jak naglasak, izbjeglicama se obratio na sasvim razumljivom engleskom jeziku.
 - Moje ime je Ranko, i ja sam ministar unutarnjih poslova, rekao je grupi koja ga je pozorno slušala.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 - Bit ćete ovdje samo kratko, da se osvježite, i onda ćete biti prevezeni dalje u Europu. Je li to ok? - pitao je izbjeglice koji su na to klimali glavama.
@@ -593,22 +579,20 @@ Ivan Horvat
 Komentar:
 My name is Ranko. First policeman in Croatia, like James.James Bond in UK.Call me if you have a problem.
 
+Naslov:
+POVEĆANJE OD 83 POSTO Rekordnih 137.000 migranata na Mediteranu od početka 2015. 
 Objavljeno: 01.07.2015
 Autor:
  Hina
 
-
 Sadrzaj:
 
 
-ŽENEVA - Rekordan broj od 137.000 migranata prešlo je Mediteran u opasnim okolnostima tijekom prvih šest mjeseci 2015., većinom bježeći od sukoba, što predstavlja povećanje od 83 posto u odnosu na prvih šest mjeseci 2014., objavio je UN u srijedu.VEZANE VIJESTIVijestiNITKO NE ŽELI 60 TISUĆA MIGRANATA U EU Nema konsenzusa o kvotama!MAĐARSKA ĆE GRADITI ZID I NA GRANICI S HRVATSKOM? Europa nemoćna oko planova Viktora OrbanaFrancuzi zatvorili granice, a migranti čučali na stijenama!
+ŽENEVA - Rekordan broj od 137.000 migranata prešlo je Mediteran u opasnim okolnostima tijekom prvih šest mjeseci 2015., većinom bježeći od sukoba, što predstavlja povećanje od 83 posto u odnosu na prvih šest mjeseci 2014., objavio je UN u srijedu.
 Stanje bi trebalo biti još gore ljeti kad krijumčari ljudima udvostručuju aktivnost. Broj migranata na Mediteranu popeo se 2014. sa 75.000 u prvom semestru na 219.000 krajem godine, po agenciji UN-a za izbjeglice. Većina migranata prelazi na sklepanim plovilima.
 "Europa se suočava s krizom izbjeglica morskim putem koja poprima povijesne razmjere", upozorava Visoko povjerenstvo UN-a za izbjeglice (UNHCR) ističući da ti migranti i izbjeglice u velikoj većini bježe od ratova, sukoba i progona.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 "Većina ljudi koji dolaze morskim putem u Europu izbjeglice su koji traže zaštitu od rata i progona", ističe u priopćenju šef UNHRC-a Antonio Guterres.
@@ -634,22 +618,20 @@ Josko Lesina
 Komentar:
 Po cijenu života žele se dočepati "trule" Evrope... Pitam se zašto se ne trude dočepati "majčice" Rusije? Kod njih je "med i mlijeko" po domaćim rusofilima i komunjarama...
 
+Naslov:
+NOVI SUKOBI U MAĐARSKOJ Neregistrirani migranti koji su otišli iz prihvatilišta policajce napali bocama, a ovi uzvratili suzavcem 
 Objavljeno: 09.09.2015
 Autor:
 Portal Jutarnji.hr
 
-
 Sadrzaj:
 
 
-BUDIMPEŠTA - Skupina izbjeglica koja je u utorak napustila prihvatni centar Riska na mađarsko-srpskoj granici i krenula pješke prema zapadu, a nakon što su se sukobili s mađarskom policijom vraćeni su u prihvatilište.VEZANE VIJESTIVijestiNOĆNA AGONIJA U MAĐARSKOJ Stotine očajnika pješke krenuli sa srpske granice prema Budimpešti, policija na njih bacila suzavac'BLISKI ISTOK MORA OSTATI BLISKI ISTOK' Za Francusku bi prihvaćanje svih izbjeglica bila pobjeda ISIS-a
+BUDIMPEŠTA - Skupina izbjeglica koja je u utorak napustila prihvatni centar Riska na mađarsko-srpskoj granici i krenula pješke prema zapadu, a nakon što su se sukobili s mađarskom policijom vraćeni su u prihvatilište.
 Naime, policija je skupinu od oko 300 izbjeglica zaustavila u policija skupina od oko 300 izbjeglica zaustavljen u Segedinu.
 Kako je izvijestila austrijska novinska agencija APA, izbjeglice su odveli u neimenovani centar na registraciju.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 Kada je oko stotinu policajaca u Segedinu zaustavilo skupinu izbjeglica, neke izbjeglice, uglavnom obitelji s malom djecom, složili su se ukrcati na autobuse. No, oko stotinjak izbjeglica je prosvjedovati i opirati se policiji. Policajce su počeli gađati bocama, na čemu su oni pak odgovorili suzavcem.
@@ -684,16 +666,17 @@ Komentar:
 
 Ma da?
 
+Naslov:
+OPASNOST NA GRANICI SA SRBIJOM Krenu li izbjeglice prema Hrvatskoj prijete im minska polja 
 Objavljeno: 14.09.2015
 Autor:
 Portal Jutarnji.hr
-
 
 Sadrzaj:
 
 Osmero izbjeglica iz Sirije stiglo je u subotu u Zagreb, a smješteni su u hotel Porin u Dugavama gdje im je osim smještaja osigurana hrana te 100 kuna mjesečnog džeparca, javlja 
 Dnevnik.hr.
-VEZANE VIJESTIVijestiEU U SUKOBU ZBOG PLANA ZA RASPODJELU MIGRANATA 'Sustav kvota nije rješenje, to će privući nove izbjeglice'HUMANOST NA DJELU Lejla i volonteri su za izbjeglice skupili dva kamiona robe, prikupljaju još, organiziraju i koncert: Evo kako i vi možete pomoći!CRVENI KRIŽ OTPUTOVAO U MAKEDONIJU S 1400 SETOVA PRVE POMOĆI U humanitarnoj akciji Hrvati donirali 220 tisuća kunaŽELJKA MARKIĆ PISALA MILANOVIĆU 'Među izbjeglicama ima i terorista, prihvatilišta moraju biti izvan EU, te u arapskim zemljama'
+
 U policiji kažu da su spremni i da su poduzeli sve za prihvat izbjegliica, te da zasad Hrvatska može primiti tri tisuće ljudi.
 Hrvatske granice nadzire čak šest tisuća policajaca, no zasad nema gužvi. Ukoliko ih bude izbjeglice će najprije biti popisane, pregledane i potom smještene u objekte poluotvorenog tipa, uglavnom se radi o policijskim objektima.
 Svi čekaju rasplet događaja u Mađarskoj: ukoliko izbjeglice krenu u Hrvatsku ići će preko graničnog prijelaza Tovarnik gdje su već poduzeli sve radnje kako bi ih mogli prihvatiti.
@@ -719,21 +702,19 @@ Dnevnik.hr.
 
 
 
+Naslov:
+EKSKLUZIVNO OTKRIVAMO SADRŽAJ RAZGOVORA Merkel: Zadržite izbjeglice neko vrijeme u Hrvatskoj; Milanović: Ne možemo! 
 Objavljeno: 18.09.2015
 Autor:
 Robert  Bajruši
 
-
 Sadrzaj:
 
-Njemačka kancelarka Angela Merkel zatražila je u telefonskom razgovoru od premijera Zorana Milanovića da Hrvatska pokuša neko vrijeme zadržati izbjeglice na svom teritoriju, potvrdio nam je dobro informiran izvor.VEZANE VIJESTIVijestiSVJETSKI MEDIJI PRENOSE PORUKU MILANOVIĆA: 'Hrvatska neće postati sabirni centar migranata i izbjeglica u Europi'VELIKI ZAOKRET Izbjeglice problijedile kada su vidjele mađarsku policiju, ali nekoliko minuta poslije plakali su od sreće: 'Ništa nam nije jasno'
+Njemačka kancelarka Angela Merkel zatražila je u telefonskom razgovoru od premijera Zorana Milanovića da Hrvatska pokuša neko vrijeme zadržati izbjeglice na svom teritoriju, potvrdio nam je dobro informiran izvor.
 Milanović je više-manje odbio zahtjev najutjecajnije europske političarke. Pritom treba naglasiti kako se radilo o razgovoru bez bilo kakvih tenzija, a sugovornici su se složili da je glavni problem u tome da Grčka dopušta dolazak imigranata, koji potom kreću dalje. Hrvatski premijer je Angeli Merkel rekao da ovdašnje vlasti ne mogu (ili neće) fizički sprječavati izbjeglice koji pokušavaju produžiti putovanje niti osnivati prihvatne centre u kojima bi ljudi ostajali bez svoje volje. Uglavnom, jedino oko čega su se dogovorili Milanović i Angela Merkel je da će opet razgovarati iduće srijede u Bruxellesu.
 U Vladi su prilično skeptični kad je riječ o imenovanju Andrije Hebranga Kolindinim savjetnikom za imigrantsku tematiku. “Logika nalaže da se time bavi Josip Buljević, koji je na Pantovčaku savjetnik za nacionalnu sigurnost”, smatraju u Vladi.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 
@@ -900,22 +881,20 @@ Anton Levačić
 Komentar:
 pisete gluposti niste vidjeli kako to izgled u zivo tko to moze zaustaviti 2-3 tisuce ljudi oni idu bez straha  pucati ne smijes i ludo je tako nesto pomisliti vojska pa sta ona moze samo srmotiti drzavu
 
+Naslov:
+NAJNOVIJE IZVJEŠĆE TAJNIH SLUŽBI Jesu li se među izbjeglice doista infiltrirali islamski teroristi? 
 Objavljeno: 22.09.2015
 Autor:
  Hina
 
-
 Sadrzaj:
 
 
-KOPENHAGEN - Militantne islamističke skupine vjerojatno ne koriste valove izjeglica koji pristižu u Europi kako bi prebacile militante koji bi mogli izvoditi napade, rekao je u utorak čelnik danske unutarnje tajne službe PET.VEZANE VIJESTIVijestiEGZODUS IZ ISLAMSKE DRŽAVE Džihadisti masovno dezertiraju: 'Ovo je velika prevara! Obećavali su nam luksuz, žene, skupe aute...'ORBAN POČEO GRADITI OGRADU PREMA HRVATSKOJ Stotine mađarskih policajaca i vojnika stiglo je na hrvatsko-mađarsku granicuSUMNJE SU BILE OPRAVDANE? Makedonska policija tvrdi: 'Među izbjeglicama smo pronašli teroriste iz Sirije, Iraka i Afganistana!'
+KOPENHAGEN - Militantne islamističke skupine vjerojatno ne koriste valove izjeglica koji pristižu u Europi kako bi prebacile militante koji bi mogli izvoditi napade, rekao je u utorak čelnik danske unutarnje tajne službe PET.
 Od gotovo pola milijuna ljudi koji su ove godine pobjegli pred ratom i siromaštvom u Europu, oko 12.400 stiglo je ovaj mjesec u Dansku. To je izazvalo zabrinutost, posebice protuuseljeničke Danske narodne stranke, da bi radikalni islamisti mogli ući u Europu predstavljajući se kao izbjeglice i izvoditi napade.
 "Na osnovi naših informacija, vjerujemo da organizirani islamistički militanti neće koristiti mreže za krijumčarenje ljudi ili izbjegličke rute kako bi pokušali prebaciti teroriste na Zapad, uključujući Dansku", rekao je čelnik PET-a Finn Borch Andersen.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 Te rute jasko su opasne, a postoji i rizik da ih otkrije policije ili razotkriju druge izbjeglice, od kojih mnoge bježe upravo od islamista, objasnio je.
@@ -959,21 +938,19 @@ Stanko Lazic
 Komentar:
 MA JOK ! Gde ti vide teroriste. Jedino ako ih Mosad nije provalio.
 
+Naslov:
+'Treba razlikovati izbjeglice od ekonomskih migranata' 
 Objavljeno: 12.10.2015
 Autor:
  Hina
 
-
 Sadrzaj:
 
-Hrvatska ministrica vanjskih i europskih poslova Vesna Pusić izjavila je u ponedjeljak u Luxembourgu da treba razdvojiti izbjeglice od ekonomskih migranata u valu migranata s kojim je suočena Europa .VEZANE VIJESTIVijestiZBOG ZIME SE USKORO ZATVARA KAMP U OPATOVCU Ovo je nova lokacija na kojoj će zbrinjavati migrante koji prolaze kroz HrvatskuPREDSJEDNICA U BAPSKOJ ISPITIVALA IZBJEGLICE KOJI ULAZE U HRVATSKU 'Ovdje su prvenstveno ekonomski migranti!'
+Hrvatska ministrica vanjskih i europskih poslova Vesna Pusić izjavila je u ponedjeljak u Luxembourgu da treba razdvojiti izbjeglice od ekonomskih migranata u valu migranata s kojim je suočena Europa .
 "Moja je teza da treba razdvojiti te dvije kategorije. Izbjeglice spašavaju glavu i ne dolazi u obzir njihovo vraćanje, dok ekonomski migranti traže bolje plaćeni posao i bolje ekonomske uvjete i njih treba vraćati temeljem sporazuma s njihovim zemljama", rekla je ministrica Pusić, koja je u Luxembourgu sudjelovala na sastanku ministara vanjskih poslova zemalja članica EU-a, na kojem su glavne teme bile stanje u Siriji i pitanje migracija.
 Također se razgovoralo i o nadzor vanjskih granica EU-a.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 Ministrica Pusić je rekla da treba jačati Frontex, europsku agenciju za granice, kako bi se učinkovitije nadzirale vanjske granice EU-a.
@@ -986,21 +963,19 @@ Dubravko Papic
 Komentar:
 mrš
 
+Naslov:
+Litva im otvorila vrata, ali izbjeglice tamo ne žele 
 Objavljeno: 26.10.2015
 Autor:
  Hina
 
-
 Sadrzaj:
 
-Za razliku od bogatijih zemalja zapadne i sjeverne Europe, Litva širom otvara vrata izbjeglicama koji bježe pred ratom na Bliskom istoku, ali malo njih želi ostati u toj zemlji.VEZANE VIJESTIVijesti'Prvi migranti mogli bi u zimski centar 2. 11.'IZBJEGLIČKI MISTERIJ U SLOVENIJI U državu iz Hrvatske ušlo 74.000, a iz nje u Austriju izašlo 48.000 migranata. Gdje su ostali?'NE ŽELIM PARALELNO DRUŠTVO KRŠĆANA I MUSLIMANA' Ovom sramotnom izjavom Viktor Orban brani svoju žicu
+Za razliku od bogatijih zemalja zapadne i sjeverne Europe, Litva širom otvara vrata izbjeglicama koji bježe pred ratom na Bliskom istoku, ali malo njih želi ostati u toj zemlji.
 "Spremni smo odmah prihvatiti izbjeglice, ali nema izbjeglica u Italiji i Grčkoj koji žele doći u Litvu", rekao je u ponedjeljak potpredsjednik litavske vlade Rimantas Vaitkus.
 "Čini se da izbjeglice znaju za Švedsku, Njemačku, Francusku, Veliku Britaniju, koje ili imaju bogati sustav socijalnog osiguranja ili aktivno privlače useljenike", rekao je Vaitkus, čija je zemlje pristala prihvatiti 1105 izbjeglica, pretežno iz Italije i Grčke, u dvjema idućim godinama.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 Stotine tisuća migranata iz Sirije i drugih bliskoistočnih zemalja otišlo je u Italiju i Grčku. Većina njih nastavila je prema bogatijim europskim zemljama, posebice Njemačkoj.
@@ -1037,21 +1012,19 @@ The Polish Rainbow
 Komentar:
 NISU TO IZBJEGLICE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+Naslov:
+PUCNJAVA KRAJ STOCKHOLMA Jedna osoba poginula, a troje ranjeno u kraju gdje prevladavaju izbjeglice 
 Objavljeno: 30.08.2015
 Autor:
 Portal Jutarnji.hr
 
-
 Sadrzaj:
 
-Jedna osoba je poginula, a najmanje je troje ranjeno u pucnjavi u Rinkebyju, predgrađu Stockholma, u nedjelju oko 14 sati, javlja Radio Sweden.VEZANE VIJESTIVijestiRAFALNA PALJBA U KINU Veliki oružani incident pored Nashvillea, specijalci na terenuMAHNITI NAPAD NA TELEVIZIJSKU EKIPU Smaknuo novinarku i snimatelja tijekom javljanja uživo, nakon bijega pucao i u sebe
+Jedna osoba je poginula, a najmanje je troje ranjeno u pucnjavi u Rinkebyju, predgrađu Stockholma, u nedjelju oko 14 sati, javlja Radio Sweden.
 Napad se dogodio na glavnom trgu u mjestu.
 Poginuli je napadnut nožem, ali i ranjen iz vatrenog oružja. Jedna osoba je u kritičnom stanju.
 
 
-
-/* (c)AdOcean 2003-2011, EPH2.Jutarnji.hr.Jutarnji.hr.Vijesti.Naslovnica.Intext */
-ado.slave('adoceanephsirdkqovnsbt', {myMaster: 'iJbr.b6diDAWg03EQbfaBQh.ntwoZ3usBZ04zpjF2.X.F7' });
 
 
 Dvije lakše ozljeđene osobe su najvjerojatnije slučajni prolaznici.

@@ -26,6 +26,18 @@ def parseRad(clanci):
     sadrzaj = ""
     autor= ""
     datum = ""
+    title= ""
+
+    replaceString="<!--"
+    soup= BeautifulSoup(str(soup).replace("<script", replaceString))
+    soup= BeautifulSoup(str(soup).replace("<h2>VEZANE VIJESTI", replaceString))
+    soup= BeautifulSoup(str(soup).replace("<ul", replaceString))
+
+    replaceString="-->"
+    soup= BeautifulSoup(str(soup).replace("</script>", replaceString))
+    soup= BeautifulSoup(str(soup).replace("ijesti</h3>", replaceString))
+    soup= BeautifulSoup(str(soup).replace("</ul>", replaceString))
+
 
     for p in soup.find_all('div', class_='dr_article'):
         sadrzaj=p.text
@@ -38,6 +50,9 @@ def parseRad(clanci):
     for div in soup.find_all('div', class_='published'):
         datum=div.text
 
+    for t in soup.find_all('title'):
+        title=t.text
+
     comment_url="https://graph.facebook.com/comments/?id=" + url
     comment_r=requests.get(comment_url)
     comment_data=urllib.urlopen(comment_url)
@@ -48,6 +63,7 @@ def parseRad(clanci):
 
     endValues = dict()
     endValues['Sadrzaj'] = sadrzaj
+    endValues['Naslov'] = title
     endValues['Autor'] = autor.replace("Autor:\n", " ")
     endValues['Datum'] = datum.replace("Objavljeno:","")
     for i in range(0,num_com):
@@ -56,11 +72,12 @@ def parseRad(clanci):
         endValues['Autor komentara'] = comment["data"][i]["from"]["name"]
         endValues['Komentar'] = comment["data"][i]["message"]
 
-
+    title=title.replace("- Jutarnji.hr", "")
 
     print(json.dumps(endValues,  ensure_ascii=False))
+    text_file.write("Naslov:\n%s\n" % title.encode('utf8'))
     text_file.write("%s\n" % datum)
-    text_file.write("%s\n" % autor.encode('utf8'))
+    text_file.write("%s" % autor.encode('utf8'))
     text_file.write("Sadrzaj:\n%s\n\n" % sadrzaj.encode('utf8'))
     for i in range(0,num_com):
         if num_com == 0:
