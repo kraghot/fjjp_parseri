@@ -23,7 +23,12 @@ def parseClanak(clanakURL):
     soup = BeautifulSoup(data, "html.parser")
 
     naslov = soup.h1.text.replace("\r", "").replace("\t", "").replace("\n", "")
-    sadrzaj = soup.find('div', id='article_text').find_all('p')[1].text
+    sadrzajContainer = soup.find('div', id='article_text').find_all('p')
+    sadrzaj = []
+    for i in range (1, len(sadrzajContainer)):
+        sadrzaj.append(sadrzajContainer[i].text)
+    sadrzaj = "\n".join(sadrzaj)
+
     meta = soup.find('div', class_='writer').text.replace('\r', '').replace('\t', '').split('\n')
     autor= meta[2]
     datum = datetime.strptime(meta[3].split(',')[1], " %d.%m.%Y. %H:%M")
@@ -93,9 +98,9 @@ def fbComment(urlclanak):
 
 tag = "1556/imigranti/"
 
-#parseSearch(tag, 1)
-#parseClanak('/clanak.aspx?id=863851')
-#fbComment('/clanak.aspx?id=863851')
+# parseSearch(tag, 1)
+# parseClanak('/clanak.aspx?id=863851')
+# fbComment('/clanak.aspx?id=863851')
 
 for i in range (1, 21):
     clanci = parseSearch(tag, i)
@@ -103,7 +108,7 @@ for i in range (1, 21):
         parseClanak(clanak)
         time.sleep(2)
 
-fileBlack = open("indexBlack", "w")
+fileBlack = open("indexBlack.txt", "w")
 fileBlack.write(indexBlack)
 fileBlack.close()
 
