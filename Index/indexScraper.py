@@ -16,7 +16,7 @@ def parseClanak(clanakURL):
     data = response.read()
 
     if finalUrl.startswith("http://www.index.hr/black"):
-        indexBlack.append(fullUrl)
+        indexBlack.append(finalUrl)
         return
 
     soup = BeautifulSoup(data, "html.parser")
@@ -65,7 +65,7 @@ def fbComment(urlclanak):
 
     #fbUrl = urllib.quote_plus(urlclanak)
     output = os.popen('curl -X GET "https://graph.facebook.com/v2.0/comments/?id=' + urlclanak +
-                      '&access_token=CAACEdEose0cBAFPYaUK6uRrg05BnvAqwCzp2ZBrWw0FVyo1gDq4sKKaiM59zflMDeco1AnbpZCSsq0keG5ytjuZCGD8HrchGYbPXAzWQbQyPNrR8kKfdUH1IV8ZBInznQfjGAfI9fqB5ydJ4KWdzaUiS4K5tyQQbcXRhd3v30YHnZCtg5SSzRMpb58PXyt0dKocdqI8OZCWrO4zNMfMzh2"'
+                      '&access_token=CAACf7v6YTeMBAKQjlpusu8Jq63EAex6HPCqIrKTcyZB3fyvtWyxD2ZCpSkuqjASHuyPAH8DSIE7KuW4BeTKZBFZBpPewMe4Qro4k2hHK1RClbZCGhmH676ta8s6wVp7pZAnQiyPL3XBhCxohvx70dj4HIoEWPj048Emt27PlZAtziAGgGpA2PGy123dGaejZAAoZD"'
                       ).read()
     print output
 
