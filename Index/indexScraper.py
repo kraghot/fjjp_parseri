@@ -15,6 +15,7 @@ def parseClanak(clanakURL):
     finalUrl = response.geturl()
     data = response.read()
 
+
     if finalUrl.startswith("http://www.index.hr/black"):
         indexBlack.append(finalUrl)
         return
@@ -35,6 +36,10 @@ def parseClanak(clanakURL):
     endValues['Naslov'] = naslov
     endValues['Autor'] = autor
     endValues['Datum'] = datum.isoformat(' ')
+
+    htmlFile = open('index_html_' + clanakURL[-6:] + '.html', 'w')
+    htmlFile.write(data)
+    htmlFile.close()
 
     text_file = open('index_' + clanakURL[-6:] + '.txt', 'w')
     text_file.write(json.dumps(endValues, ensure_ascii=False, indent=4*' ').encode("UTF_8"))
