@@ -14,14 +14,18 @@ import time
 import codecs
 from pprint import pprint
 import urllib, json
+
+
+
+
 rbr=0
+
 
 def parseRad(clanci):
     global rbr
     url = clanci
     r = requests.get(url)
     data = r.text
-
 
     soup = BeautifulSoup(data, "html.parser")
     sadrzaj = ""
@@ -67,7 +71,7 @@ def parseRad(clanci):
     endValues = dict()
     endValues['Sadrzaj'] = sadrzaj
     endValues['Naslov'] = title
-    endValues['Autor'] = autor.replace("Autor:\n", " ")
+    endValues['Autor'] = autor.replace("Autor:\n", "")
     endValues['Datum'] = datum
     for i in range(0,num_com):
         if num_com == 0:
@@ -76,10 +80,19 @@ def parseRad(clanci):
         endValues['Komentar'] = comment["data"][i]["message"]
 
     title=title.replace("- Jutarnji.hr", "")
+    autor_encode=autor
+
+
+    autor_encode=autor_encode.replace("Autor:", "")
+    autor_encode=''.join(autor_encode.split())
 
     rbr+=1
 
-    article = open("jutarnji-" + datum + "-" + `rbr` +".txt", "w")
+    html_file = open(datum + "-" + `rbr` + "-" + autor_encode +".html", "w")
+    data=data.encode('utf8')
+    html_file.write(data)
+
+    article = open(datum + "-" + `rbr` + "-" + autor_encode +".txt", "w")
 
     print(json.dumps(endValues,  ensure_ascii=False))
     article.write("Naslov:\n%s\n" % title.encode('utf8'))
@@ -88,18 +101,25 @@ def parseRad(clanci):
     article.write("Sadrzaj:\n%s\n\n" % sadrzaj.encode('utf8'))
     article.close()
 
-    comment_file = open("jutarnji-" + datum + "-" + `rbr` +"-komentari.txt", "w")
+   # comment_file = open(datum + "-" + `rbr` +"-komentari.txt", "w")
     for i in range(0,num_com):
         if num_com == 0:
             break
+        autor_com_encode = comment["data"][i]["from"]["name"]
+        autor_com_encode = ''.join(autor_com_encode.split())
+
+        rbr_com=i+1
+
+        comment_file = open(datum + "-" + `rbr` + "-" + `rbr_com` + "-" + autor_com_encode + ".txt", "w")
         comment_file.write("Autor komentara:\n%s\n\n" % comment["data"][i]["from"]["name"].encode('utf8'))
         comment_file.write("Komentar:\n%s\n\n" % comment["data"][i]["message"].encode('utf8'))
-    comment_file.close()
+        comment_file.close()
+    #comment_file.close()
 
 def parseSearch(tag, page):
 
     scrapedIDs = []
-    searchURL = "http://www.jutarnji.hr/search.do?searchString=" + tag + "&timePeriod=2015&publishDate=&publicationId=1&newPhrase=&method=navigate&pageNumber=" + `page` #http://www.jutarnji.hr/search.do?timePeriod=2015&publishDate=&newPhrase=&publicationId=1&searchString=izbjeglice
+    searchURL = "http://www.jutarnji.hr/search.do?searchString=" + tag + "&timePeriod=2015&publishDate=&publicationId=1&newPhrase=&method=navigate&sortString=by_date_desc&pageNumber=" + `page` #http://www.jutarnji.hr/search.do?timePeriod=2015&publishDate=&newPhrase=&publicationId=1&searchString=izbjeglice
     r = requests.get(searchURL)
     data = r.text
     clanci = []
@@ -136,7 +156,7 @@ for tag in tags:
         page+=1
         idevi+=parseSearch(tag, page)
         #text_file = open("Output.txt", "w")
-        if page == 3:
+        if page == 3: #ovo maknuti kod pokazivanja prof
             break
 
 for rad in idevi:
