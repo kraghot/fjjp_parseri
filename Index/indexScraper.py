@@ -9,6 +9,7 @@ import os, urllib2, time, simplejson as json
 indexBlack = []
 lastDate = datetime.now()
 rbr = 1
+rbrKomentara = 0
 
 def parseClanak(clanakURL):
     global rbr
@@ -64,7 +65,8 @@ def parseClanak(clanakURL):
     text_file.write(endValues['Sadrzaj'].encode("UTF_8"))
     text_file.close()
 
-    fbComment(finalUrl)
+    rbrKomentara = 0
+    fbComment(finalUrl, identifier)
 
 def parseSearch(tag, pageNumber):
 
@@ -85,8 +87,10 @@ def parseSearch(tag, pageNumber):
     print(clanci)
     return clanci
 
-def fbComment(urlclanak):
+def fbComment(urlclanak, identifier):
 
+    global rbrKomentara
+    rbrKomentara += 1
     #fbUrl = urllib.quote_plus(urlclanak)
     output = os.popen('curl -X GET "https://graph.facebook.com/v2.0/comments/?id=' + urlclanak +
                       '&access_token=CAACf7v6YTeMBAKQjlpusu8Jq63EAex6HPCqIrKTcyZB3fyvtWyxD2ZCpSkuqjASHuyPAH8DSIE7KuW4BeTKZBFZBpPewMe4Qro4k2hHK1RClbZCGhmH676ta8s6wVp7pZAnQiyPL3XBhCxohvx70dj4HIoEWPj048Emt27PlZAtziAGgGpA2PGy123dGaejZAAoZD"'
@@ -103,7 +107,7 @@ def fbComment(urlclanak):
             commentDict['Message'] = i['message']
             commentDictList.append(commentDict)
         print commentDictList
-        commentFile = open('index-komentari-' + urlclanak[-11:-5] + '.txt', 'w')
+        commentFile = open('index-komentari-' + identifier + "_%d-%s" % (rbrKomentara, commentDict['Author Name']) + '.txt', 'w')
         commentFile.write(json.dumps(commentDictList, ensure_ascii=False, indent=4*' ', sort_keys=True).encode("UTF_8"))
         commentFile.close()
     except:
