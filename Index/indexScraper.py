@@ -60,6 +60,7 @@ def parseClanak(clanakURL):
 
     text_file = open('index_' + identifier + '.txt', 'w')
     text_file.write(endValues['Naslov'].encode("UTF_8"))
+    text_file.write("\n".encode("UTF_8"))
     text_file.write(endValues['Sadrzaj'].encode("UTF_8"))
     text_file.close()
 
