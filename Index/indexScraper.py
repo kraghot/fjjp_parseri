@@ -7,8 +7,12 @@ from datetime import datetime
 import os, urllib2, time, simplejson as json
 
 indexBlack = []
+lastDate = datetime.now()
+rbr = 1
 
 def parseClanak(clanakURL):
+    global rbr
+    global lastDate
     fullUrl = 'http://www.index.hr' + clanakURL
     request = urllib2.Request(fullUrl)
     response = urllib2.urlopen(request)
@@ -42,12 +46,21 @@ def parseClanak(clanakURL):
     endValues['Autor'] = autor
     endValues['Datum'] = datum.isoformat(' ')
 
-    htmlFile = open('index_html_' + clanakURL[-6:] + '.html', 'w')
+    if datum.date() == lastDate.date():
+        rbr += 1
+    else:
+        lastDate = datum
+        rbr = 1
+
+    identifier = "%2d%2d%4d-%d-%s" % (datum.day, datum.month, datum.year, rbr, endValues['Autor'])
+
+    htmlFile = open('index_html_' + identifier  + '.html', 'w')
     htmlFile.write(data)
     htmlFile.close()
 
-    text_file = open('index_' + clanakURL[-6:] + '.txt', 'w')
-    text_file.write(json.dumps(endValues, ensure_ascii=False, indent=4*' ').encode("UTF_8"))
+    text_file = open('index_' + identifier + '.txt', 'w')
+    text_file.write(endValues['Naslov'].encode("UTF_8"))
+    text_file.write(endValues['Sadrzaj'].encode("UTF_8"))
     text_file.close()
 
     fbComment(finalUrl)
