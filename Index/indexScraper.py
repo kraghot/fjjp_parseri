@@ -109,10 +109,10 @@ def fbComment(urlclanak, identifier):
             commentDict['Author Name'] = i['from']['name']
             commentDict['Message'] = i['message']
             commentDictList.append(commentDict)
+            commentFile = open('index-komentari-' + identifier + "_%d-%s" % (rbrKomentara, commentDict['Author Name']) + '.txt', 'w')
+            commentFile.write(commentDict['Message'].encode("UTF_8"))
+            commentFile.close()
         print commentDictList
-        commentFile = open('index-komentari-' + identifier + "_%d-%s" % (rbrKomentara, commentDict['Author Name']) + '.txt', 'w')
-        commentFile.write(json.dumps(commentDictList, ensure_ascii=False, indent=4*' ', sort_keys=True).encode("UTF_8"))
-        commentFile.close()
     except:
         print("FACEBOOK PARSE ERROR")
 
