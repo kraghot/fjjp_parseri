@@ -36,7 +36,10 @@ def parseClanak(clanakURL):
 
     meta = soup.find('div', class_='writer').text.replace('\r', '').replace('\t', '').split('\n')
     autor= meta[2]
-    datum = datetime.strptime(meta[3].split(',')[1], " %d.%m.%Y. %H:%M")
+    if meta[3].startswith("Objavljeno prije"):
+        datum = datetime.now()
+    else:
+        datum = datetime.strptime(meta[3].split(',')[1], " %d.%m.%Y. %H:%M")
 
     if datum.year < 2015:
         return
